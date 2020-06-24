@@ -24,7 +24,7 @@ pipeline{
                   steps {
                          //aws cloudformation create-stack --stack-name S3bucketcreation --template-body file:cft.yaml
                          sh 'aws s3api creat-bucket --bucket angular-demo-bucket --region us-east-1'
-                  }
+                  
               }
                 
               
